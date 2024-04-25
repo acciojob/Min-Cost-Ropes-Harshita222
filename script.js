@@ -1,13 +1,12 @@
-function mincost(arr)
-{ 
+function mincost(arr){ 
 //write your code here
-	    arr.sort((a, b) => a - b);
-	let minCost =0
-	for (let i = i<arr.length; i++)	
-		  minCost += arr[i];
+	arr.sort((a, b) => a - b);
+	let min =0
+	for (let i =0; i<arr.length; i++)	{
+		  min += arr[i];
 	}
 // return the min cost
-    return minCost;
+    return min;
 
   
 }
